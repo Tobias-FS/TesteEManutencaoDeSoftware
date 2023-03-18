@@ -1,0 +1,19 @@
+package fisica;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CinematicaTest {
+
+	@Test
+	public void testAceleracaoEscalar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDeslocamentoUniforme() {
+		fail("Not yet implemented");
+	}
+
+}

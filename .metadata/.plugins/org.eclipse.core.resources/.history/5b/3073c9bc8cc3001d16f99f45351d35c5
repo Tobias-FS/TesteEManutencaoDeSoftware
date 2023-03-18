@@ -1,0 +1,45 @@
+package matematica;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Ignore;
+import org.junit.Test;
+
+public class Algebratest {
+
+	public static int cont = 0;
+	
+	@Before
+	public void setUp() {
+		cont++;
+		System.out.println( "Before" + cont );
+	}
+	
+	@After
+	public void tearDown() {
+		cont--;
+		System.out.println( "Before" + cont );
+	}
+	
+	@Test
+	public void soma_quandoReebe2e3_deveRetornar5() {
+//		fail("Not yet implemented");
+		assertEquals(5.0, Algebra.soma(2, 3), 0.0);
+	}
+	
+	@Ignore
+	@Test
+	public void soma_quandoReebe2e3negativos_deveRetornar5negativo() {
+//		fail("Not yet implemented");
+		assertEquals(-5.0, Algebra.soma(-2, -3), 0.0);
+	}
+	
+	@Test
+	public void soma_quandoReebe1e0_deveRetornar1() {
+//		fail("Not yet implemented");
+		assertEquals(1.0, Algebra.soma(1, 0), 0.0);
+	}
+
+}

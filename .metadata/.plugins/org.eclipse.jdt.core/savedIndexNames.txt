@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/saloca/Documents/Repositorios/TesteManutençãoDeSoftware/.metadata/.plugins/org.eclipse.jdt.core
+558295462.index
+1865797976.index
+2373848192.index
+2796822576.index

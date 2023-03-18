@@ -1,0 +1,21 @@
+package matematica;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Algebratest {
+
+	@Test
+	public void soma_quandoReebe2e3_deveRetornar() {
+//		fail("Not yet implemented");
+		assertEquals(6.0, Algebra.soma(2, 3), 0.0);
+	}
+	
+	@Test
+	public void soma_quandoReebe2e3negativos_deveRetornar5negativo() {
+//		fail("Not yet implemented");
+		assertEquals(-5.0, Algebra.soma(-2, -3), 0.0);
+	}
+
+}
